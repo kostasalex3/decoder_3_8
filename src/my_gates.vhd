@@ -27,16 +27,8 @@ end my_not;
 
 architecture behavioral of my_not is
     begin
-    --    process(A)
-     --   begin
-      --      if A = '1' then
-       --         B <= '0';
-         --   elsif A = '0' then
-           --     B <= '1';
-          --  else 
-            --    B<= '0';
-            --end if;
+
     B <= not A;
-    --end process;
+
 
 end behavioral;
